@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Curriculum Samuel de Oliveira Neto</title>
+	
+</head>
+<body>	
+<script>
+		"use strict";
+		const urlXP = "https://demo1915525.mockable.io/expprofissional";
+		const urlHAB = "https://demo1915525.mockable.io/habtecnicas";
+		
+		function httpGetAsync(theUrl, callback)
+		{
+			let xmlHttp = new XMLHttpRequest();
+			xmlHttp.onreadystatechange = function() { 
+				if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+					callback(xmlHttp.responseText);
+			}
+			xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+			xmlHttp.send(null);
+		}
+		
+		httpGetAsync(urlXP,(resp)=>{
+		  console.log("urlXP",resp);
+		
+		})
+		
+		httpGetAsync(urlHAB,(resp)=>{
+		console.log("urlHAB",resp);
+			 
+		 })
+		 
+		
+		</script>		
+	<h1> Samuel de Oliveira Neto </h1>
+	<hr>
+	<h3>Brasileiro, União estavel, 23 anos.</h3>
+	<h3>Rua José Roque Salton, 1334 - Terra Bonita - Londrina-PR</h3>
+	<h3>Categoria CNH: A/B</h3>
+	<h3>Telefone: (43)99687-5004 / E-mail: samudemolay27@gmail.com</h3>
+	<hr>
+
+	<h1>Experiências Profissionais:</h1>
+	<hr>
+	
+
+	<hr>
+	<h1> Formação: </h1>
+	<hr>
+	<h3>•Ensino Médio Completo. </h3>
+	<h3>•Cursando Analise e Desenvolvimento de Sistemas (Faculdade Positivo Londrina) Periodo: 4º Semestre (2º Ano) </h3>
+	
+
+	<hr>
+	<h1>Habilidades Técnicas:</h1>
+	<hr>
+
+
+	<hr>
+	<h1>Idiomas:</h1>
+	<hr>
+	<h3>•Inglês:  Escrita - Básico / Leitura - Básico</h3>
+
+	<hr>
+	<h1>Interesses Profissionais:</h1>
+	<hr>
+	<h3>•Desenvolvimento Front-End</h3>
+	<h3>•Disponibilidade de horarios: matutino e vespertino</h3>
+
+</body>
+</html>
