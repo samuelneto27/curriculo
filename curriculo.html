@@ -22,15 +22,27 @@
 			xmlHttp.send(null);
 		}
 		
-		httpGetAsync(urlXP,(resp)=>{
-		  console.log("urlXP",resp);
-		
+
+		var exp = [];
+		httpGetAsync(urlXP,(resp)=>{		
+		 exp =	JSON.parse(resp);
+		 console.log(exp);
 		})
+
+		for (var i=0; i<exp.length; i++){
+			console.log(exp);
+		}
+
 		
+		var hab = [];
 		httpGetAsync(urlHAB,(resp)=>{
-		console.log("urlHAB",resp);
-			 
+		 hab =	JSON.parse(resp);
+		 //console.log(hab);
 		 })
+
+
+		
+
 		 
 		
 		</script>		
@@ -44,6 +56,11 @@
 
 	<h1>Experiências Profissionais:</h1>
 	<hr>
+	<span id="emp1"></span>
+	<span id="emp2"></span>
+	<span id="emp3"></span>
+	<span id="emp4"></span>
+
 	
 
 	<hr>
