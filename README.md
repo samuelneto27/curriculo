@@ -1,4 +1,3 @@
 # curriculo
 Feito por Samuel de Oliveira Neto em resposta à atividade tecnica no processo seletivo da Advise Londrina-PR.
-No projeto foram utilizado as linguagens HTML/CSS/JS conforme especificado no teste.
-Para estar alterando os temas, basta clicar no botao que esta no canto superior esquerdo ("Alterar Tema").
+No projeto foram utilizado as linguagens HTML/CSS/JS conforme especificado no teste. Para visualiação do curriculum e necessario baixar o arquivo "curriculo.rar", extrair na pasta de sua preferencia e executar o arquivo "curriculo.html". E para estar alterando os temas, basta clicar no botao que esta no canto superior esquerdo ("Alterar Tema").
